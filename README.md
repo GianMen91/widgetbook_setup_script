@@ -4,7 +4,7 @@
 This script automates the integration of [Widgetbook](https://widgetbook.io/) into your Flutter project. It scans your `lib` directory for all widgets (`StatelessWidget` and `StatefulWidget`) and generates corresponding Widgetbook use-cases, allowing you to preview them interactively.  
 
 ## Features  
-- ✅ Sets up a Widgetbook project inside a `widgetbook` directory.  
+- ✅ Automates the setup of a Widgetbook project within a 'widgetbook' directory, streamlining the steps outlined in the Widgetbook [Quick Start Guide](https://docs.widgetbook.io/guides/quick-start).
 - ✅ Scans your Flutter project's `lib` directory for all widgets.  
 - ✅ Generates use-cases for each widget and saves them in `widgetbook/lib`, preserving the original directory structure.  
 - ✅ Runs `build_runner` to generate the required `main.directories.g.dart` file.
