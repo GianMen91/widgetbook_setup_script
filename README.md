@@ -1,5 +1,9 @@
 # 📖 Widgetbook Setup Script  
 
+[![License](https://img.shields.io/github/license/GianMen91/widgetbook_setup_script)](https://github.com/GianMen91/widgetbook_setup_script/blob/master/LICENSE)
+[![Version](https://img.shields.io/github/v/release/GianMen91/widgetbook_setup_script)](https://github.com/GianMen91/widgetbook_setup_script/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/GianMen91/widgetbook_setup_script)](https://github.com/GianMen91/widgetbook_setup_script/commits)
+
 ## Overview  
 This script automates the integration of [Widgetbook](https://widgetbook.io/) into your Flutter project. It scans your `lib` directory for all widgets (`StatelessWidget` and `StatefulWidget`) and generates corresponding Widgetbook use-cases, allowing you to preview them interactively.  
 
