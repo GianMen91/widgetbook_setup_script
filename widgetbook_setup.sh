@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Copyright (c) 2025 Giancarlo Mennillo
+# 
+# This script is licensed under the MIT License.
+# See the LICENSE file for more details.
+#
 # Overview
 # This script automates the integration of Widgetbook into your Flutter project by generating Widgetbook
 # use-cases for all widgets in the project’s `lib` directory. It scans the source directory for widgets
