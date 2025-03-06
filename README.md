@@ -14,6 +14,19 @@ This script automates the integration of [Widgetbook](https://widgetbook.io/) in
 - ✅ Runs `build_runner` to generate the required `main.directories.g.dart` file.
 
 ## Usage  
+
+### Option 1
+
+You can use curl to download and execute the script in one command:
+
+```sh
+curl -s https://raw.githubusercontent.com/GianMen91/widgetbook_setup_script/main/widgetbook_setup.sh | bash
+```
+
+- `curl -s` fetches the script silently.
+- The `| bash` part pipes it directly into a new Bash process.
+
+### Option 2
 1. Place the script in the root directory of your Flutter project (same level as `lib`, `pubspec.yaml`, etc.).  
 2. Open a terminal in the project root.  
 3. Run the script:
@@ -29,6 +42,28 @@ Once the script is finished and the setup is complete, navigate to the widgetboo
  cd widgetbook  
  flutter run
  ```
+
+# ⚠️ Important Notice  
+
+During setup, you might see messages about **version conflicts** or **dependency issues**. This happens when some packages in your project require different versions to work together.  
+
+## 🔍 What does this mean?  
+- If you see a message like _"Version solving failed"_, it means some dependencies need to be adjusted.  
+- The error message usually suggests a fix (e.g., changing a package version).  
+
+## ✅ How to Fix It  
+1. Check the error message for suggested version changes.  
+2. If a solution is provided (e.g., updating a package version), run the suggested command.  
+3. If no suggestion is given, try running:
+   
+   ```sh
+   flutter pub upgrade --major-versions
+    ```
+4. If the issue persists, manually adjust dependency versions in `pubspec.yaml` and then run:
+   
+   ```sh
+   flutter pub get
+   ```
 
 # Buy me a coffee
 
