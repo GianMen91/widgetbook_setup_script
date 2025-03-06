@@ -171,7 +171,7 @@ echo "Searching for widget files in '$SOURCE_DIR'..."
 find "$SOURCE_DIR" -type f -name "*.dart" | wc -l | xargs echo "Found files:"
 
 # Iterate through all Dart files in the source directory
-find "$SOURCE_DIR" -type f -name "*.dart" | while read -r file; do
+find "$SOURCE_DIR" -type f -name "*.dart" ! -name "main.dart" | while read -r file; do
     echo "Checking file: $file"
 
     # Check if the file contains a widget (extends StatelessWidget or StatefulWidget)
