@@ -65,6 +65,32 @@ During setup, you might see messages about **version conflicts** or **dependency
    flutter pub get
    ```
 
+# Contributing
+
+Contributions from users are highly valued and appreciated. Two main ways to contribute to this project are through pull requests and issues.
+
+## Pull Requests
+
+1. Fork the repository and create a branch from the `main` branch.
+2. Make changes or additions to the code.
+3. Commit the changes, and push them to the branch.
+4. Open a pull request to the `main` branch with a clear and concise description of the changes.
+
+## Issues
+
+1. Navigate to the [Issues](https://github.com/GianMen91/gitlab-statistics/issues) section of the repository.
+2. Check if there is an existing issue similar to the one you'd like to create.
+3. If there isn't an existing issue, create a new issue by clicking the "New issue" button.
+4. Provide a descriptive title and detailed information about the proposed changes you want to add to the current script.
+
+---
+
+Feel free to contribute and share
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 # Buy me a coffee
 
 <a href="https://www.buymeacoffee.com/giancarlo.mennillo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
