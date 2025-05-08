@@ -36,12 +36,24 @@ bash widgetbook_setup.sh
 ```
 
 # Running Widgetbook
-Once the script is finished and the setup is complete, navigate to the widgetbook directory and start Widgetbook:
+
+1. Once the script is finished and the setup is complete, navigate to the widgetbook directory:
 
  ```sh
  cd widgetbook  
- flutter run
  ```
+
+2. Run the following command to generate the necessary files:
+
+```sh
+dart run build_runner build
+```   
+
+3. Now, start Widgetbook using:
+   
+```sh
+flutter run
+```
 
 # ⚠️ Important Notice  
 
